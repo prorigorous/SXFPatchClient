@@ -1,0 +1,1356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		1A85385A2278310700CECA60 /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8537EA2278310700CECA60 /* MF_Base64Additions.m */; };
+		1A85385B2278310700CECA60 /* CodePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8537ED2278310700CECA60 /* CodePush.m */; };
+		1A85385C2278310700CECA60 /* CodePushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8537EE2278310700CECA60 /* CodePushConfig.m */; };
+		1A85385D2278310700CECA60 /* CodePushDownloadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8537EF2278310700CECA60 /* CodePushDownloadHandler.m */; };
+		1A85385E2278310700CECA60 /* CodePushErrorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8537F02278310700CECA60 /* CodePushErrorUtils.m */; };
+		1A85385F2278310700CECA60 /* CodePushPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8537F12278310700CECA60 /* CodePushPackage.m */; };
+		1A8538602278310700CECA60 /* CodePushTelemetryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8537F22278310700CECA60 /* CodePushTelemetryManager.m */; };
+		1A8538612278310700CECA60 /* CodePushUpdateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8537F32278310700CECA60 /* CodePushUpdateUtils.m */; };
+		1A8538622278310700CECA60 /* CodePushUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8537F42278310700CECA60 /* CodePushUtils.m */; };
+		1A8538632278310700CECA60 /* JWTAlgorithmFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8537FB2278310700CECA60 /* JWTAlgorithmFactory.m */; };
+		1A8538642278310700CECA60 /* JWTAlgorithmNone.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8537FD2278310700CECA60 /* JWTAlgorithmNone.m */; };
+		1A8538652278310700CECA60 /* JWTAlgorithmESBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538002278310700CECA60 /* JWTAlgorithmESBase.m */; };
+		1A8538662278310700CECA60 /* JWTAlgorithmDataHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538032278310700CECA60 /* JWTAlgorithmDataHolder.m */; };
+		1A8538672278310700CECA60 /* JWTAlgorithmDataHolderChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538052278310700CECA60 /* JWTAlgorithmDataHolderChain.m */; };
+		1A8538682278310700CECA60 /* JWTAlgorithmHSBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538082278310700CECA60 /* JWTAlgorithmHSBase.m */; };
+		1A8538692278310700CECA60 /* JWTAlgorithmRSBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A85380B2278310700CECA60 /* JWTAlgorithmRSBase.m */; };
+		1A85386A2278310700CECA60 /* JWTCryptoKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A85380F2278310700CECA60 /* JWTCryptoKey.m */; };
+		1A85386B2278310700CECA60 /* JWTCryptoKeyExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538112278310700CECA60 /* JWTCryptoKeyExtractor.m */; };
+		1A85386C2278310700CECA60 /* JWTCryptoSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538132278310700CECA60 /* JWTCryptoSecurity.m */; };
+		1A85386D2278310700CECA60 /* JWTClaim.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538162278310700CECA60 /* JWTClaim.m */; };
+		1A85386E2278310700CECA60 /* JWTClaimsSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538182278310700CECA60 /* JWTClaimsSet.m */; };
+		1A85386F2278310700CECA60 /* JWTClaimsSetSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A85381A2278310700CECA60 /* JWTClaimsSetSerializer.m */; };
+		1A8538702278310700CECA60 /* JWTClaimsSetVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A85381C2278310700CECA60 /* JWTClaimsSetVerifier.m */; };
+		1A8538712278310700CECA60 /* JWTCoding+ResultTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A85381F2278310700CECA60 /* JWTCoding+ResultTypes.m */; };
+		1A8538722278310700CECA60 /* JWTCoding+VersionOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538212278310700CECA60 /* JWTCoding+VersionOne.m */; };
+		1A8538732278310700CECA60 /* JWTCoding+VersionThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538232278310700CECA60 /* JWTCoding+VersionThree.m */; };
+		1A8538742278310700CECA60 /* JWTCoding+VersionTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538252278310700CECA60 /* JWTCoding+VersionTwo.m */; };
+		1A8538752278310700CECA60 /* JWTCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538272278310700CECA60 /* JWTCoding.m */; };
+		1A8538762278310700CECA60 /* JWTBase64Coder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A85382D2278310700CECA60 /* JWTBase64Coder.m */; };
+		1A8538772278310700CECA60 /* JWTErrorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538302278310700CECA60 /* JWTErrorDescription.m */; };
+		1A8538782278310700CECA60 /* RCTConvert+CodePushInstallMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538332278310700CECA60 /* RCTConvert+CodePushInstallMode.m */; };
+		1A8538792278310700CECA60 /* RCTConvert+CodePushUpdateState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538342278310700CECA60 /* RCTConvert+CodePushUpdateState.m */; };
+		1A85387A2278310700CECA60 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538392278310700CECA60 /* aescrypt.c */; };
+		1A85387B2278310700CECA60 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A85383A2278310700CECA60 /* aeskey.c */; };
+		1A85387C2278310700CECA60 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A85383C2278310700CECA60 /* aestab.c */; };
+		1A85387D2278310700CECA60 /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538402278310700CECA60 /* entropy.c */; };
+		1A85387E2278310700CECA60 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538422278310700CECA60 /* fileenc.c */; };
+		1A85387F2278310700CECA60 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538442278310700CECA60 /* hmac.c */; };
+		1A8538802278310700CECA60 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538462278310700CECA60 /* prng.c */; };
+		1A8538812278310700CECA60 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538482278310700CECA60 /* pwd2key.c */; };
+		1A8538822278310700CECA60 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A85384A2278310700CECA60 /* sha1.c */; };
+		1A8538832278310700CECA60 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A85384F2278310700CECA60 /* ioapi.c */; };
+		1A8538842278310700CECA60 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538512278310700CECA60 /* mztools.c */; };
+		1A8538852278310700CECA60 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538532278310700CECA60 /* unzip.c */; };
+		1A8538862278310700CECA60 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538552278310700CECA60 /* zip.c */; };
+		1A8538872278310700CECA60 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8538592278310700CECA60 /* SSZipArchive.m */; };
+		B3E7B58A1CC2AC0600A0062D /* RNReactNativeSxfPatchclient.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNReactNativeSxfPatchclient.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libRNReactNativeSxfPatchclient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNReactNativeSxfPatchclient.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8537E92278310700CECA60 /* MF_Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_Base64Additions.h; sourceTree = "<group>"; };
+		1A8537EA2278310700CECA60 /* MF_Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base64Additions.m; sourceTree = "<group>"; };
+		1A8537EB2278310700CECA60 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1A8537EC2278310700CECA60 /* CodePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePush.h; sourceTree = "<group>"; };
+		1A8537ED2278310700CECA60 /* CodePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePush.m; sourceTree = "<group>"; };
+		1A8537EE2278310700CECA60 /* CodePushConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushConfig.m; sourceTree = "<group>"; };
+		1A8537EF2278310700CECA60 /* CodePushDownloadHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushDownloadHandler.m; sourceTree = "<group>"; };
+		1A8537F02278310700CECA60 /* CodePushErrorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushErrorUtils.m; sourceTree = "<group>"; };
+		1A8537F12278310700CECA60 /* CodePushPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushPackage.m; sourceTree = "<group>"; };
+		1A8537F22278310700CECA60 /* CodePushTelemetryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushTelemetryManager.m; sourceTree = "<group>"; };
+		1A8537F32278310700CECA60 /* CodePushUpdateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushUpdateUtils.m; sourceTree = "<group>"; };
+		1A8537F42278310700CECA60 /* CodePushUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushUtils.m; sourceTree = "<group>"; };
+		1A8537F92278310700CECA60 /* JWTAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTAlgorithm.h; sourceTree = "<group>"; };
+		1A8537FA2278310700CECA60 /* JWTAlgorithmFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTAlgorithmFactory.h; sourceTree = "<group>"; };
+		1A8537FB2278310700CECA60 /* JWTAlgorithmFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTAlgorithmFactory.m; sourceTree = "<group>"; };
+		1A8537FC2278310700CECA60 /* JWTAlgorithmNone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTAlgorithmNone.h; sourceTree = "<group>"; };
+		1A8537FD2278310700CECA60 /* JWTAlgorithmNone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTAlgorithmNone.m; sourceTree = "<group>"; };
+		1A8537FF2278310700CECA60 /* JWTAlgorithmESBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTAlgorithmESBase.h; sourceTree = "<group>"; };
+		1A8538002278310700CECA60 /* JWTAlgorithmESBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTAlgorithmESBase.m; sourceTree = "<group>"; };
+		1A8538022278310700CECA60 /* JWTAlgorithmDataHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTAlgorithmDataHolder.h; sourceTree = "<group>"; };
+		1A8538032278310700CECA60 /* JWTAlgorithmDataHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTAlgorithmDataHolder.m; sourceTree = "<group>"; };
+		1A8538042278310700CECA60 /* JWTAlgorithmDataHolderChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTAlgorithmDataHolderChain.h; sourceTree = "<group>"; };
+		1A8538052278310700CECA60 /* JWTAlgorithmDataHolderChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTAlgorithmDataHolderChain.m; sourceTree = "<group>"; };
+		1A8538072278310700CECA60 /* JWTAlgorithmHSBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTAlgorithmHSBase.h; sourceTree = "<group>"; };
+		1A8538082278310700CECA60 /* JWTAlgorithmHSBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTAlgorithmHSBase.m; sourceTree = "<group>"; };
+		1A85380A2278310700CECA60 /* JWTAlgorithmRSBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTAlgorithmRSBase.h; sourceTree = "<group>"; };
+		1A85380B2278310700CECA60 /* JWTAlgorithmRSBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTAlgorithmRSBase.m; sourceTree = "<group>"; };
+		1A85380C2278310700CECA60 /* JWTRSAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTRSAlgorithm.h; sourceTree = "<group>"; };
+		1A85380E2278310700CECA60 /* JWTCryptoKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTCryptoKey.h; sourceTree = "<group>"; };
+		1A85380F2278310700CECA60 /* JWTCryptoKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTCryptoKey.m; sourceTree = "<group>"; };
+		1A8538102278310700CECA60 /* JWTCryptoKeyExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTCryptoKeyExtractor.h; sourceTree = "<group>"; };
+		1A8538112278310700CECA60 /* JWTCryptoKeyExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTCryptoKeyExtractor.m; sourceTree = "<group>"; };
+		1A8538122278310700CECA60 /* JWTCryptoSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTCryptoSecurity.h; sourceTree = "<group>"; };
+		1A8538132278310700CECA60 /* JWTCryptoSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTCryptoSecurity.m; sourceTree = "<group>"; };
+		1A8538152278310700CECA60 /* JWTClaim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTClaim.h; sourceTree = "<group>"; };
+		1A8538162278310700CECA60 /* JWTClaim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTClaim.m; sourceTree = "<group>"; };
+		1A8538172278310700CECA60 /* JWTClaimsSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTClaimsSet.h; sourceTree = "<group>"; };
+		1A8538182278310700CECA60 /* JWTClaimsSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTClaimsSet.m; sourceTree = "<group>"; };
+		1A8538192278310700CECA60 /* JWTClaimsSetSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTClaimsSetSerializer.h; sourceTree = "<group>"; };
+		1A85381A2278310700CECA60 /* JWTClaimsSetSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTClaimsSetSerializer.m; sourceTree = "<group>"; };
+		1A85381B2278310700CECA60 /* JWTClaimsSetVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTClaimsSetVerifier.h; sourceTree = "<group>"; };
+		1A85381C2278310700CECA60 /* JWTClaimsSetVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTClaimsSetVerifier.m; sourceTree = "<group>"; };
+		1A85381E2278310700CECA60 /* JWTCoding+ResultTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JWTCoding+ResultTypes.h"; sourceTree = "<group>"; };
+		1A85381F2278310700CECA60 /* JWTCoding+ResultTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JWTCoding+ResultTypes.m"; sourceTree = "<group>"; };
+		1A8538202278310700CECA60 /* JWTCoding+VersionOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JWTCoding+VersionOne.h"; sourceTree = "<group>"; };
+		1A8538212278310700CECA60 /* JWTCoding+VersionOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JWTCoding+VersionOne.m"; sourceTree = "<group>"; };
+		1A8538222278310700CECA60 /* JWTCoding+VersionThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JWTCoding+VersionThree.h"; sourceTree = "<group>"; };
+		1A8538232278310700CECA60 /* JWTCoding+VersionThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JWTCoding+VersionThree.m"; sourceTree = "<group>"; };
+		1A8538242278310700CECA60 /* JWTCoding+VersionTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JWTCoding+VersionTwo.h"; sourceTree = "<group>"; };
+		1A8538252278310700CECA60 /* JWTCoding+VersionTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JWTCoding+VersionTwo.m"; sourceTree = "<group>"; };
+		1A8538262278310700CECA60 /* JWTCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTCoding.h; sourceTree = "<group>"; };
+		1A8538272278310700CECA60 /* JWTCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTCoding.m; sourceTree = "<group>"; };
+		1A8538292278310700CECA60 /* JWT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWT.h; sourceTree = "<group>"; };
+		1A85382A2278310700CECA60 /* Map.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = Map.modulemap; sourceTree = "<group>"; };
+		1A85382C2278310700CECA60 /* JWTBase64Coder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTBase64Coder.h; sourceTree = "<group>"; };
+		1A85382D2278310700CECA60 /* JWTBase64Coder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTBase64Coder.m; sourceTree = "<group>"; };
+		1A85382E2278310700CECA60 /* JWTDeprecations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTDeprecations.h; sourceTree = "<group>"; };
+		1A85382F2278310700CECA60 /* JWTErrorDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTErrorDescription.h; sourceTree = "<group>"; };
+		1A8538302278310700CECA60 /* JWTErrorDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTErrorDescription.m; sourceTree = "<group>"; };
+		1A8538312278310700CECA60 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1A8538322278310700CECA60 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1A8538332278310700CECA60 /* RCTConvert+CodePushInstallMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+CodePushInstallMode.m"; sourceTree = "<group>"; };
+		1A8538342278310700CECA60 /* RCTConvert+CodePushUpdateState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+CodePushUpdateState.m"; sourceTree = "<group>"; };
+		1A8538372278310700CECA60 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		1A8538382278310700CECA60 /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
+		1A8538392278310700CECA60 /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		1A85383A2278310700CECA60 /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		1A85383B2278310700CECA60 /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		1A85383C2278310700CECA60 /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		1A85383D2278310700CECA60 /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		1A85383E2278310700CECA60 /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		1A85383F2278310700CECA60 /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		1A8538402278310700CECA60 /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
+		1A8538412278310700CECA60 /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
+		1A8538422278310700CECA60 /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
+		1A8538432278310700CECA60 /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		1A8538442278310700CECA60 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		1A8538452278310700CECA60 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		1A8538462278310700CECA60 /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		1A8538472278310700CECA60 /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		1A8538482278310700CECA60 /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
+		1A8538492278310700CECA60 /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		1A85384A2278310700CECA60 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		1A85384B2278310700CECA60 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		1A85384C2278310700CECA60 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		1A85384E2278310700CECA60 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		1A85384F2278310700CECA60 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		1A8538502278310700CECA60 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		1A8538512278310700CECA60 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		1A8538522278310700CECA60 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		1A8538532278310700CECA60 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		1A8538542278310700CECA60 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		1A8538552278310700CECA60 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		1A8538562278310700CECA60 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		1A8538572278310700CECA60 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1A8538582278310700CECA60 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		1A8538592278310700CECA60 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		B3E7B5881CC2AC0600A0062D /* RNReactNativeSxfPatchclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNReactNativeSxfPatchclient.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RNReactNativeSxfPatchclient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNReactNativeSxfPatchclient.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNReactNativeSxfPatchclient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A8537E62278310700CECA60 /* CodePush */ = {
+			isa = PBXGroup;
+			children = (
+				1A8537E72278310700CECA60 /* Base64 */,
+				1A8537EC2278310700CECA60 /* CodePush.h */,
+				1A8537ED2278310700CECA60 /* CodePush.m */,
+				1A8537EE2278310700CECA60 /* CodePushConfig.m */,
+				1A8537EF2278310700CECA60 /* CodePushDownloadHandler.m */,
+				1A8537F02278310700CECA60 /* CodePushErrorUtils.m */,
+				1A8537F12278310700CECA60 /* CodePushPackage.m */,
+				1A8537F22278310700CECA60 /* CodePushTelemetryManager.m */,
+				1A8537F32278310700CECA60 /* CodePushUpdateUtils.m */,
+				1A8537F42278310700CECA60 /* CodePushUtils.m */,
+				1A8537F52278310700CECA60 /* JWT */,
+				1A8538332278310700CECA60 /* RCTConvert+CodePushInstallMode.m */,
+				1A8538342278310700CECA60 /* RCTConvert+CodePushUpdateState.m */,
+				1A8538352278310700CECA60 /* SSZipArchive */,
+			);
+			path = CodePush;
+			sourceTree = "<group>";
+		};
+		1A8537E72278310700CECA60 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				1A8537E82278310700CECA60 /* Base64 */,
+				1A8537EB2278310700CECA60 /* README.md */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		1A8537E82278310700CECA60 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				1A8537E92278310700CECA60 /* MF_Base64Additions.h */,
+				1A8537EA2278310700CECA60 /* MF_Base64Additions.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		1A8537F52278310700CECA60 /* JWT */ = {
+			isa = PBXGroup;
+			children = (
+				1A8537F62278310700CECA60 /* Core */,
+				1A8538312278310700CECA60 /* LICENSE */,
+				1A8538322278310700CECA60 /* README.md */,
+			);
+			path = JWT;
+			sourceTree = "<group>";
+		};
+		1A8537F62278310700CECA60 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1A8537F72278310700CECA60 /* Algorithms */,
+				1A8538142278310700CECA60 /* ClaimSet */,
+				1A85381D2278310700CECA60 /* Coding */,
+				1A8538282278310700CECA60 /* FrameworkSupplement */,
+				1A85382B2278310700CECA60 /* Supplement */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1A8537F72278310700CECA60 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				1A8537F82278310700CECA60 /* Base */,
+				1A8537FE2278310700CECA60 /* ESFamily */,
+				1A8538012278310700CECA60 /* Holders */,
+				1A8538062278310700CECA60 /* HSFamily */,
+				1A8538092278310700CECA60 /* RSFamily */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		1A8537F82278310700CECA60 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1A8537F92278310700CECA60 /* JWTAlgorithm.h */,
+				1A8537FA2278310700CECA60 /* JWTAlgorithmFactory.h */,
+				1A8537FB2278310700CECA60 /* JWTAlgorithmFactory.m */,
+				1A8537FC2278310700CECA60 /* JWTAlgorithmNone.h */,
+				1A8537FD2278310700CECA60 /* JWTAlgorithmNone.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1A8537FE2278310700CECA60 /* ESFamily */ = {
+			isa = PBXGroup;
+			children = (
+				1A8537FF2278310700CECA60 /* JWTAlgorithmESBase.h */,
+				1A8538002278310700CECA60 /* JWTAlgorithmESBase.m */,
+			);
+			path = ESFamily;
+			sourceTree = "<group>";
+		};
+		1A8538012278310700CECA60 /* Holders */ = {
+			isa = PBXGroup;
+			children = (
+				1A8538022278310700CECA60 /* JWTAlgorithmDataHolder.h */,
+				1A8538032278310700CECA60 /* JWTAlgorithmDataHolder.m */,
+				1A8538042278310700CECA60 /* JWTAlgorithmDataHolderChain.h */,
+				1A8538052278310700CECA60 /* JWTAlgorithmDataHolderChain.m */,
+			);
+			path = Holders;
+			sourceTree = "<group>";
+		};
+		1A8538062278310700CECA60 /* HSFamily */ = {
+			isa = PBXGroup;
+			children = (
+				1A8538072278310700CECA60 /* JWTAlgorithmHSBase.h */,
+				1A8538082278310700CECA60 /* JWTAlgorithmHSBase.m */,
+			);
+			path = HSFamily;
+			sourceTree = "<group>";
+		};
+		1A8538092278310700CECA60 /* RSFamily */ = {
+			isa = PBXGroup;
+			children = (
+				1A85380A2278310700CECA60 /* JWTAlgorithmRSBase.h */,
+				1A85380B2278310700CECA60 /* JWTAlgorithmRSBase.m */,
+				1A85380C2278310700CECA60 /* JWTRSAlgorithm.h */,
+				1A85380D2278310700CECA60 /* RSKeys */,
+			);
+			path = RSFamily;
+			sourceTree = "<group>";
+		};
+		1A85380D2278310700CECA60 /* RSKeys */ = {
+			isa = PBXGroup;
+			children = (
+				1A85380E2278310700CECA60 /* JWTCryptoKey.h */,
+				1A85380F2278310700CECA60 /* JWTCryptoKey.m */,
+				1A8538102278310700CECA60 /* JWTCryptoKeyExtractor.h */,
+				1A8538112278310700CECA60 /* JWTCryptoKeyExtractor.m */,
+				1A8538122278310700CECA60 /* JWTCryptoSecurity.h */,
+				1A8538132278310700CECA60 /* JWTCryptoSecurity.m */,
+			);
+			path = RSKeys;
+			sourceTree = "<group>";
+		};
+		1A8538142278310700CECA60 /* ClaimSet */ = {
+			isa = PBXGroup;
+			children = (
+				1A8538152278310700CECA60 /* JWTClaim.h */,
+				1A8538162278310700CECA60 /* JWTClaim.m */,
+				1A8538172278310700CECA60 /* JWTClaimsSet.h */,
+				1A8538182278310700CECA60 /* JWTClaimsSet.m */,
+				1A8538192278310700CECA60 /* JWTClaimsSetSerializer.h */,
+				1A85381A2278310700CECA60 /* JWTClaimsSetSerializer.m */,
+				1A85381B2278310700CECA60 /* JWTClaimsSetVerifier.h */,
+				1A85381C2278310700CECA60 /* JWTClaimsSetVerifier.m */,
+			);
+			path = ClaimSet;
+			sourceTree = "<group>";
+		};
+		1A85381D2278310700CECA60 /* Coding */ = {
+			isa = PBXGroup;
+			children = (
+				1A85381E2278310700CECA60 /* JWTCoding+ResultTypes.h */,
+				1A85381F2278310700CECA60 /* JWTCoding+ResultTypes.m */,
+				1A8538202278310700CECA60 /* JWTCoding+VersionOne.h */,
+				1A8538212278310700CECA60 /* JWTCoding+VersionOne.m */,
+				1A8538222278310700CECA60 /* JWTCoding+VersionThree.h */,
+				1A8538232278310700CECA60 /* JWTCoding+VersionThree.m */,
+				1A8538242278310700CECA60 /* JWTCoding+VersionTwo.h */,
+				1A8538252278310700CECA60 /* JWTCoding+VersionTwo.m */,
+				1A8538262278310700CECA60 /* JWTCoding.h */,
+				1A8538272278310700CECA60 /* JWTCoding.m */,
+			);
+			path = Coding;
+			sourceTree = "<group>";
+		};
+		1A8538282278310700CECA60 /* FrameworkSupplement */ = {
+			isa = PBXGroup;
+			children = (
+				1A8538292278310700CECA60 /* JWT.h */,
+				1A85382A2278310700CECA60 /* Map.modulemap */,
+			);
+			path = FrameworkSupplement;
+			sourceTree = "<group>";
+		};
+		1A85382B2278310700CECA60 /* Supplement */ = {
+			isa = PBXGroup;
+			children = (
+				1A85382C2278310700CECA60 /* JWTBase64Coder.h */,
+				1A85382D2278310700CECA60 /* JWTBase64Coder.m */,
+				1A85382E2278310700CECA60 /* JWTDeprecations.h */,
+				1A85382F2278310700CECA60 /* JWTErrorDescription.h */,
+				1A8538302278310700CECA60 /* JWTErrorDescription.m */,
+			);
+			path = Supplement;
+			sourceTree = "<group>";
+		};
+		1A8538352278310700CECA60 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				1A8538362278310700CECA60 /* aes */,
+				1A85384C2278310700CECA60 /* Common.h */,
+				1A85384D2278310700CECA60 /* minizip */,
+				1A8538572278310700CECA60 /* README.md */,
+				1A8538582278310700CECA60 /* SSZipArchive.h */,
+				1A8538592278310700CECA60 /* SSZipArchive.m */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		1A8538362278310700CECA60 /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				1A8538372278310700CECA60 /* aes.h */,
+				1A8538382278310700CECA60 /* aes_via_ace.h */,
+				1A8538392278310700CECA60 /* aescrypt.c */,
+				1A85383A2278310700CECA60 /* aeskey.c */,
+				1A85383B2278310700CECA60 /* aesopt.h */,
+				1A85383C2278310700CECA60 /* aestab.c */,
+				1A85383D2278310700CECA60 /* aestab.h */,
+				1A85383E2278310700CECA60 /* brg_endian.h */,
+				1A85383F2278310700CECA60 /* brg_types.h */,
+				1A8538402278310700CECA60 /* entropy.c */,
+				1A8538412278310700CECA60 /* entropy.h */,
+				1A8538422278310700CECA60 /* fileenc.c */,
+				1A8538432278310700CECA60 /* fileenc.h */,
+				1A8538442278310700CECA60 /* hmac.c */,
+				1A8538452278310700CECA60 /* hmac.h */,
+				1A8538462278310700CECA60 /* prng.c */,
+				1A8538472278310700CECA60 /* prng.h */,
+				1A8538482278310700CECA60 /* pwd2key.c */,
+				1A8538492278310700CECA60 /* pwd2key.h */,
+				1A85384A2278310700CECA60 /* sha1.c */,
+				1A85384B2278310700CECA60 /* sha1.h */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		1A85384D2278310700CECA60 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				1A85384E2278310700CECA60 /* crypt.h */,
+				1A85384F2278310700CECA60 /* ioapi.c */,
+				1A8538502278310700CECA60 /* ioapi.h */,
+				1A8538512278310700CECA60 /* mztools.c */,
+				1A8538522278310700CECA60 /* mztools.h */,
+				1A8538532278310700CECA60 /* unzip.c */,
+				1A8538542278310700CECA60 /* unzip.h */,
+				1A8538552278310700CECA60 /* zip.c */,
+				1A8538562278310700CECA60 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				1A8537E62278310700CECA60 /* CodePush */,
+				B3E7B5881CC2AC0600A0062D /* RNReactNativeSxfPatchclient.h */,
+				B3E7B5891CC2AC0600A0062D /* RNReactNativeSxfPatchclient.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNReactNativeSxfPatchclient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNReactNativeSxfPatchclient" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNReactNativeSxfPatchclient;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNReactNativeSxfPatchclient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 830;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNReactNativeSxfPatchclient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNReactNativeSxfPatchclient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8538832278310700CECA60 /* ioapi.c in Sources */,
+				1A8538812278310700CECA60 /* pwd2key.c in Sources */,
+				1A85387F2278310700CECA60 /* hmac.c in Sources */,
+				1A85386C2278310700CECA60 /* JWTCryptoSecurity.m in Sources */,
+				1A8538712278310700CECA60 /* JWTCoding+ResultTypes.m in Sources */,
+				1A8538762278310700CECA60 /* JWTBase64Coder.m in Sources */,
+				1A8538632278310700CECA60 /* JWTAlgorithmFactory.m in Sources */,
+				1A8538682278310700CECA60 /* JWTAlgorithmHSBase.m in Sources */,
+				1A8538672278310700CECA60 /* JWTAlgorithmDataHolderChain.m in Sources */,
+				1A8538872278310700CECA60 /* SSZipArchive.m in Sources */,
+				1A85386D2278310700CECA60 /* JWTClaim.m in Sources */,
+				1A8538732278310700CECA60 /* JWTCoding+VersionThree.m in Sources */,
+				1A85387A2278310700CECA60 /* aescrypt.c in Sources */,
+				1A85385C2278310700CECA60 /* CodePushConfig.m in Sources */,
+				1A8538652278310700CECA60 /* JWTAlgorithmESBase.m in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* RNReactNativeSxfPatchclient.m in Sources */,
+				1A8538772278310700CECA60 /* JWTErrorDescription.m in Sources */,
+				1A85387C2278310700CECA60 /* aestab.c in Sources */,
+				1A85387D2278310700CECA60 /* entropy.c in Sources */,
+				1A8538622278310700CECA60 /* CodePushUtils.m in Sources */,
+				1A8538822278310700CECA60 /* sha1.c in Sources */,
+				1A85387B2278310700CECA60 /* aeskey.c in Sources */,
+				1A85385A2278310700CECA60 /* MF_Base64Additions.m in Sources */,
+				1A8538782278310700CECA60 /* RCTConvert+CodePushInstallMode.m in Sources */,
+				1A85386F2278310700CECA60 /* JWTClaimsSetSerializer.m in Sources */,
+				1A85387E2278310700CECA60 /* fileenc.c in Sources */,
+				1A8538752278310700CECA60 /* JWTCoding.m in Sources */,
+				1A8538792278310700CECA60 /* RCTConvert+CodePushUpdateState.m in Sources */,
+				1A8538742278310700CECA60 /* JWTCoding+VersionTwo.m in Sources */,
+				1A85386A2278310700CECA60 /* JWTCryptoKey.m in Sources */,
+				1A85385B2278310700CECA60 /* CodePush.m in Sources */,
+				1A8538692278310700CECA60 /* JWTAlgorithmRSBase.m in Sources */,
+				1A8538612278310700CECA60 /* CodePushUpdateUtils.m in Sources */,
+				1A8538702278310700CECA60 /* JWTClaimsSetVerifier.m in Sources */,
+				1A8538802278310700CECA60 /* prng.c in Sources */,
+				1A85385D2278310700CECA60 /* CodePushDownloadHandler.m in Sources */,
+				1A85385E2278310700CECA60 /* CodePushErrorUtils.m in Sources */,
+				1A8538852278310700CECA60 /* unzip.c in Sources */,
+				1A8538642278310700CECA60 /* JWTAlgorithmNone.m in Sources */,
+				1A85386E2278310700CECA60 /* JWTClaimsSet.m in Sources */,
+				1A8538842278310700CECA60 /* mztools.c in Sources */,
+				1A8538662278310700CECA60 /* JWTAlgorithmDataHolder.m in Sources */,
+				1A8538862278310700CECA60 /* zip.c in Sources */,
+				1A85386B2278310700CECA60 /* JWTCryptoKeyExtractor.m in Sources */,
+				1A8538722278310700CECA60 /* JWTCoding+VersionOne.m in Sources */,
+				1A8538602278310700CECA60 /* CodePushTelemetryManager.m in Sources */,
+				1A85385F2278310700CECA60 /* CodePushPackage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNReactNativeSxfPatchclient;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNReactNativeSxfPatchclient;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		89C065BCC988441EAA37CE15 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "RC";
+		};
+		16AE8E81C7BE44B2B9FCD4AC /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNReactNativeSxfPatchclient;
+				SKIP_INSTALL = YES;
+			};
+			name = "RC";
+		};
+		291AF9B61C6F4CB3A46F2785 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Prod";
+		};
+		E28A10583C2741EE898042D0 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNReactNativeSxfPatchclient;
+				SKIP_INSTALL = YES;
+			};
+			name = "Prod";
+		};
+		266710D6C47C4151AE27B7E4 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "RC";
+		};
+		C8BD74D3FB3643C69F9907C3 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNReactNativeSxfPatchclient;
+				SKIP_INSTALL = YES;
+			};
+			name = "RC";
+		};
+		0A53F405C7EE4704BB8CF785 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Prod";
+		};
+		F58458AB585940FA8510C63B /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNReactNativeSxfPatchclient;
+				SKIP_INSTALL = YES;
+			};
+			name = "Prod";
+		};
+		993C08BBF4DD41F7A8C28E03 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "RC";
+		};
+		6805A83BD09C4E4A810527E4 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNReactNativeSxfPatchclient;
+				SKIP_INSTALL = YES;
+			};
+			name = "RC";
+		};
+		2FE917C039304860A1B02393 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Prod";
+		};
+		4200CEF92CE345B3B85B7E27 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNReactNativeSxfPatchclient;
+				SKIP_INSTALL = YES;
+			};
+			name = "Prod";
+		};
+		F78D6F07455F4109B07341D4 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "RC";
+		};
+		D4E82FC82B284919853CA0F4 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNReactNativeSxfPatchclient;
+				SKIP_INSTALL = YES;
+			};
+			name = "RC";
+		};
+		000A1D64AFC84AF99D62F01D /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Prod";
+		};
+		08091C099EC0466DAC992560 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNReactNativeSxfPatchclient;
+				SKIP_INSTALL = YES;
+			};
+			name = "Prod";
+		};
+		51D98AD8013D44669BF2D914 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "RC";
+		};
+		8776FC5FD48347E9B0A30928 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNReactNativeSxfPatchclient;
+				SKIP_INSTALL = YES;
+			};
+			name = "RC";
+		};
+		3D0F57081C204818B6E5ADE7 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Prod";
+		};
+		94516B72FE8D4B6ABD5A7CB8 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNReactNativeSxfPatchclient;
+				SKIP_INSTALL = YES;
+			};
+			name = "Prod";
+		};
+		98102938450040C2995AB368 /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "RC";
+		};
+		3A7E05325FB74D6E8E5DF35F /* RC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNReactNativeSxfPatchclient;
+				SKIP_INSTALL = YES;
+			};
+			name = "RC";
+		};
+		789A191B2A4743CFA8567035 /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Prod";
+		};
+		31446EA15ED94C4DAAF8482C /* Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNReactNativeSxfPatchclient;
+				SKIP_INSTALL = YES;
+			};
+			name = "Prod";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNReactNativeSxfPatchclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+				89C065BCC988441EAA37CE15 /* RC */,
+				291AF9B61C6F4CB3A46F2785 /* Prod */,
+				266710D6C47C4151AE27B7E4 /* RC */,
+				0A53F405C7EE4704BB8CF785 /* Prod */,
+				993C08BBF4DD41F7A8C28E03 /* RC */,
+				2FE917C039304860A1B02393 /* Prod */,
+				F78D6F07455F4109B07341D4 /* RC */,
+				000A1D64AFC84AF99D62F01D /* Prod */,
+				51D98AD8013D44669BF2D914 /* RC */,
+				3D0F57081C204818B6E5ADE7 /* Prod */,
+				98102938450040C2995AB368 /* RC */,
+				789A191B2A4743CFA8567035 /* Prod */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNReactNativeSxfPatchclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+				16AE8E81C7BE44B2B9FCD4AC /* RC */,
+				E28A10583C2741EE898042D0 /* Prod */,
+				C8BD74D3FB3643C69F9907C3 /* RC */,
+				F58458AB585940FA8510C63B /* Prod */,
+				6805A83BD09C4E4A810527E4 /* RC */,
+				4200CEF92CE345B3B85B7E27 /* Prod */,
+				D4E82FC82B284919853CA0F4 /* RC */,
+				08091C099EC0466DAC992560 /* Prod */,
+				8776FC5FD48347E9B0A30928 /* RC */,
+				94516B72FE8D4B6ABD5A7CB8 /* Prod */,
+				3A7E05325FB74D6E8E5DF35F /* RC */,
+				31446EA15ED94C4DAAF8482C /* Prod */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}
